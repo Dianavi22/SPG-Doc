@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Party Game</title>
+  <link rel="icon" type="icon/png" href="images/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body class="body-background">
+
+  <!-- En-tête -->
+  <header>
+    <nav>
+      <a href="#">
+        <img src="images/icon.png" alt="Super Party Game">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#modes-de-jeu">Modes de jeu</a></li>
+        <li><a href="#documentation">Documentation</a></li>
+        <li><a href="#games">Liste des jeux</a></li>
+        <li><a href="#features">Fonctionnalités</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+  <!-- Bannière -->
+  <section class="banner">
+    <div style="padding-top: 80px; padding-bottom: 50px;">
+      <h1>Super Party Game</h1>
+    </div>
+  </section>
+
+  <!-- Section du jeu vidéo -->
+  <section class="jeu-video">
+    <img src="./images/banner.png" alt="Image du jeu vidéo">
+    <div class="description">
+      <h2>Description du jeu vidéo</h2>
+      <p>Super Party Game est un jeu amusant où les joueurs peuvent enchaîner des défis en coopération ou
+        en bataille royale, tout en utilisant leur téléphone portable. Ce jeu est parfait pour jouer avec n'importe qui,
+        n'importe où et garantit une expérience de jeu divertissante à chaque fois. </p>
+    </div>
+  </section>
+
+  <!-- Section des caractéristiques -->
+  <section class="caracteristiques">
+    <div class="caracteristiques-container">
+      <h2>Caractéristiques de Super Party Game</h2>
+      <ul>
+        <li><span>Plateforme :</span> Android, IOS</li>
+        <li><span>Genre :</span> Party Game</li>
+        <li><span>Langue :</span> Français</li>
+        <li><span>Éditeur :</span> Chimera Software</li>
+        <li><span>Développeurs :</span> Brian RICHARD, Kévin DOBROTA, Lubin PAULY, Jade BOUIGES</li>
+      </ul>
+    </div>
+    <div class="image-container">
+      <img src="logo2.png" alt="description de l'image">
+    </div>
+  </section>
+  <!-- Section des modes de jeux -->
+  <section id="modes-de-jeu">
+    <h2>Modes de jeu</h2>
+    <ul>
+      <li>
+        <h3>Mode coopération</h3>
+        <img class="mode-image" src="./images/Froggy.png" alt="Image du mode histoire">
+        <p>Jouer tous autour d'un téléphone, chacun passe le prochain mini-jeu à son voisin</p>
+      </li>
+      <li>
+        <h3>Mode battle royale</h3>
+        <img class="mode-image" src="./images/SneukOnTheBox.png" alt="Image du mode multijoueur">
+        <p>Restez en vie jusqu'à ce que tous vos amis perdent leurs vies</p>
+      </li>
+      <li>
+        <h3>Mode training</h3>
+        <img class="mode-image" src="./images/Bobee.png" alt="Image du mode multijoueur">
+        <p>Choisissez le mino-jzu auquel VOUS voulez jouer</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section de la documentation -->
+  <section id="documentation">
+    <h2>Documentation utilisateur</h2>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">
+          <h3><i class="fas fa-chevron-right"></i>Créer une partie en mode Battle Royale</h3>
+        </div>
+      </div>
+      <div class="card-content">
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/menuBR.PNG" alt="Menu Battle Royale">
+            <p class="image-description">Cliquez sur le bouton "Battle royale"</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/choiceBRCreate.PNG" alt="Menu Battle Royale">
+            <p class="image-description">Cliquez sur le bouton "Battle royale"</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/nbMiniJeuxBR.PNG" alt="Menu Battle Royale">
+            <p class="image-description">Choississez le nombre de mini-jeux et passezà la suite</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/showCode.PNG" alt="Menu Battle Royale">
+            <p class="image-description">Communiquez le code à vos amis, attendez qu'ils rejoignent et lancez la partie
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">
+          <h3><i class="fas fa-chevron-right"></i>Rejoindre une partie en mode Battle Royale</h3>
+        </div>
+      </div>
+      <div class="card-content">
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/menuBR.PNG" alt="Menu Coopération" class="responsive">
+            <p class="image-description text-responsive">Cliquez sur le bouton "Battle Royale"</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/choiceBRJoin.PNG" alt="Menu Coopération" class="responsive">
+            <p class="image-description text-responsive">Cliquez sur le bouton "Rejoindre"</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/inviteBR.PNG" alt="Menu Coopération" class="responsive">
+            <p class="image-description text-responsive">Entrez le code de la partie que vous souhaitez rejoindre et
+              validez le code</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">
+          <h3><i class="fas fa-chevron-right"></i>Créer une partie en mode Coopération</h3>
+        </div>
+      </div>
+      <div class="card-content">
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/menuCoop.PNG" alt="Menu Coopération">
+            <p class="image-description">Cliquez sur le bouton "Coopération"</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/listPlayerCoop.PNG" alt="Menu Coopération">
+            <p class="image-description">Entrez un joueur, ajoutez le à la liste. Continuez pour chaques jouers puis
+              passez à la suuite en appuyant sur le bouton</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/nbMiniJeuxCoop.PNG" alt="Menu Coopération">
+            <p class="image-description">Entrez le nombre de mini-jeux que vous souhaitez et cliquez sur le bouton pour
+              passez à la suite</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/secondsBuGameCoop.PNG" alt="Menu Coopération">
+            <p class="image-description">Entrez un temps par mini-jeux en secondes et cliquez sur le bouton pour passer
+              à la suite</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">
+          <h3><i class="fas fa-chevron-right"></i>Jouer en mode training</h3>
+        </div>
+      </div>
+      <div class="card-content">
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/menuTraining.PNG" alt="Menu Training">
+            <p class="image-description">Cliquez sur le bouton "Training"</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="image-container">
+            <img src="./doc/TrainingChoice.PNG" alt="Menu Training">
+            <p class="image-description">Choisissez un mini jeu en cliquant sur l'icon du jeu souhaité</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Section des descriptions des jeux -->
+  <section class="games-section" id="games">
+    <h2 class="games-title">Nos jeux</h2>
+    <p class="games-description">Découvrez nos derniers jeux amusants et addictifs !</p>
+    <div class="games-list">
+      <div class="game" id="game1">
+        <div class="game-content">
+          <img src="./images/SneukOnTheBox.png" alt="Jeu 1" class="game-img">
+          <div class="game-header">
+            <h3 class="game-title"><i class="fas fa-gamepad"></i> Sneuk</h3>
+          </div>
+          <div class="game-description">
+            <p>Dans Sneuk, incarnez un serpent intrépide et survolté qui doit éviter des caisses qui pleuvent du ciel en
+              se déplaçant sur la gauche ou la droite. Avec ses graphismes colorés et sa musique entrainante, ce jeu
+              d'arcade est parfait pour ceux qui cherchent une expérience rapide et amusante. Jusqu'où pourrez-vous
+              aller dans cette aventure survoltée ?</p>
+          </div>
+        </div>
+      </div>
+      <div class="game">
+        <div class="game-content">
+          <img src="./images/Froggy.png" alt="Jeu 2" class="game-img">
+          <div class="game-header">
+            <h3 class="game-title"><i class="fas fa-gamepad"></i> Froggy</h3>
+          </div>
+          <div class="game-description">
+            <p>Froggy est un jeu amusant où vous incarnez une grenouille qui doit sauter par-dessus des rochers tout en
+              évitant les obstacles qui se dressent sur sa route. Le jeu devient de plus en plus difficile à mesure que
+              vous progressez, et chaque erreur peut mettre fin à votre partie. Avec ses graphismes colorés et sa
+              jouabilité simple, Froggy est un jeu parfait pour tous les joueurs en quête d'un défi amusant et addictif.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="game">
+        <div class="game-content">
+          <img src="./images/Bobee.PNG" alt="Jeu 3" class="game-img">
+          <div class="game-header">
+            <h3 class="game-title"><i class="fas fa-gamepad"></i> Bobee</h3>
+          </div>
+          <div class="game-description">
+            <p>Dans "Bobee", vous incarnez une abeille nommée Bobee qui doit fuir des araignées affamées ! Mais
+              attention, Bobee ne peut que fuir, alors vous devrez être rapide et rusé pour éviter les ennemis et sauver
+              votre peau. Avec des graphismes adorables et une jouabilité simple mais addictive, "Bobee" est un jeu
+              parfait pour les amateurs de jeux d'action rapides et stimulants. Pouvez-vous aider Bobee à échapper à ses
+              prédateurs et à devenir le plus rapide de la ruche ? Jouez dès maintenant pour le découvrir !</p>
+          </div>
+        </div>
+      </div>
+      <div class="game">
+        <div class="game-content">
+          <img src="./images/Gerard.PNG" alt="Jeu 4" class="game-img">
+          <div class="game-header">
+            <h3 class="game-title"><i class="fas fa-gamepad"></i> Gerard</h3>
+          </div>
+          <div class="game-description">
+            <p>Entrez dans le monde merveilleux de Gérard la girafe, le tout nouveau jeu sensationnel qui mettra votre
+              dextérité à l'épreuve! Avec Gérard, vous devrez orienter son cou pour esquiver les branches de l'arbre et
+              atteindre des hauteurs vertigineuses. Mais attention, les branches sont sournoises et chaque collision
+              peut mettre fin à votre ascension.</p>
+          </div>
+        </div>
+      </div>
+      <div class="game">
+        <div class="game-content">
+          <img src="./images/Brina.PNG" alt="Jeu 5" class="game-img">
+          <div class="game-header">
+            <h3 class="game-title"><i class="fas fa-gamepad"></i> Brina</h3>
+          </div>
+          <div class="game-description">
+            <p>Envollez-vous dans le ciel avec Brina, l'oiseau courageux qui vole à travers les arbres majestueux! Dans
+              ce tout nouveau jeu, vous contrôlez Brina alors qu'elle vole à travers les branches en évitant les
+              obstacles.
+              Le but est simple : évitez les branches et allez le plus loin possible pour obtenir le meilleur score.
+              Mais attention, le vol n'est pas facile et les branches apparaissent soudainement, donc la dextérité est
+              de mise.</p>
+          </div>
+        </div>
+      </div>
+      <div class="game">
+        <div class="game-content">
+          <img src="./images/Sanic.png" alt="Jeu 6" class="game-img">
+          <div class="game-header">
+            <h3 class="game-title"><i class="fas fa-gamepad"></i> Sanic</h3>
+          </div>
+          <div class="game-description">
+            <p>Plongez dans l'aventure avec Sanic, le hérisson le plus rapide de tous les temps! Dans ce tout nouveau
+              jeu, vous contrôlez Sanic alors qu'il roule à travers des trous à toute vitesse en évitant les
+              obstaclessur sa route.
+              Le but est simple : descendre le plus vite possible. Mais attention, la caméra qui descend
+              automatiquement, est implacable et peut tuer Sanic si vous ne roulez
+              pas assez vite.</p>
+          </div>
+        </div>
+      </div>
+      <div class="game">
+        <div class="game-content">
+          <img src="./images/Falleine.png" alt="Jeu 7" class="game-img">
+          <div class="game-header">
+            <h3 class="game-title"><i class="fas fa-gamepad"></i> Falleine</h3>
+          </div>
+          <div class="game-description">
+            <p>Falleine, la baleine du ciel, a besoin de ton aide pour survivre dans un monde hostile rempli
+              d'hélicoptères qui la pourchassent. Dans ce jeu d'arcade palpitant, tu devras faire preuve de réflexes
+              rapides et d'une concentration aiguisée pour aider Falleine à éviter les obstacles et à échapper à ses
+              poursuivants. Avec des graphismes saisissants et une bande-son captivante, Falleine offre une expérience
+              de jeu immersive qui mettra à l'épreuve tes compétences et ta résilience. Prépare-toi à une aventure
+              remplie de défis et d'excitation, et montre à tous que tu es un véritable héros en aidant Falleine à
+              retourner dans l'océan saine et sauve.</p>
+          </div>
+        </div>
+      </div>
+      <div class="game">
+        <div class="game-content">
+          <img src="./images/Ladybee.png" alt="Jeu 8" class="game-img">
+          <div class="game-header">
+            <h3 class="game-title"><i class="fas fa-gamepad"></i> Ladybee</h3>
+          </div>
+          <div class="game-description">
+            <p>Dans ce jeu palpitant, vous incarnez une petite coccinelle courageuse qui doit esquiver les prédateurs
+              affamés qui rôdent sur les branches. Avec des graphismes vibrants et une musique entraînante, vous devrez
+              utiliser votre agilité et vos réflexes pour éviter les obstacles et collecter des bonus tout en survolant
+              les magnifiques paysages de la nature. Êtes-vous prêt à relever le défi et à devenir le maître des airs ?
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Section des features -->
+  <section id="features" class="features">
+    <h2>Autres fonctionnalités</h2>
+    <div class="feature">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-title">
+            <h3>Accéder aux crédits</h3>
+          </div>
+          <div class="card-description">
+            <p>Découvrez qui se cache derrière ce jeu</p>
+          </div>
+          <div class="card-images">
+            <div class="paddingImage">
+              <img class="imagesStyle" src="./features/credits.PNG" alt="Feature 1 image 1">
+            </div>
+            <div class="paddingImage">
+              <img class="imagesStyle" src="./features/creditcontenu.PNG" alt="Feature 1 image 2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-title">
+            <h3>Lire les mentions légales</h3>
+          </div>
+          <div class="card-description">
+            <p>Lisez les droits de l'application</p>
+          </div>
+          <div class="card-images">
+            <div class="paddingImage">
+              <img class="imagesStyle" src="./features/legalButton.PNG" alt="Feature 1 image 1">
+            </div>
+            <div class="paddingImage">
+              <img class="imagesStyle" src="./features/legal.PNG" alt="Feature 1 image 2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-title">
+            <h3>Accéder aux contacts de l'équipe</h3>
+          </div>
+          <div class="card-description">
+            <p>Envoyez nous vos retours</p>
+          </div>
+          <div class="card-images">
+            <div class="paddingImage">
+              <img class="imagesStyle" src="./features/contactButton.PNG" alt="Feature 1 image 1">
+            </div>
+            <div class="paddingImage">
+              <img class="imagesStyle" src="./features/contact.PNG" alt="Feature 1 image 2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="card">
+
+        <div class="card-content">
+          <div class="card-title">
+            <h3>Changer le volume</h3>
+          </div>
+          <div class="card-description">
+            <p>Changez le volume de la musique ou des sons du jeu</p>
+          </div>
+          <div class="card-images">
+            <div class="paddingImage">
+              <img class="imagesStyle" src="./features/settingsBButoon.PNG" alt="Feature 2 image 1">
+            </div>
+            <div class="paddingImage">
+              <img class="imagesStyle" src="./features/settings.PNG" alt="Feature 2 image 2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-title">
+            <h3>Fermer l'application</h3>
+          </div>
+          <div class="card-description">
+            <p>Quittez l'applications après vos parties</p>
+          </div>
+          <div class="card-images">
+            <div class="paddingImage">
+              <img class="imagesStyle" src="./features/quitButton.PNG" alt="Feature 1 image 1">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section des contacts -->
+  <!-- Section des contacts -->
+  <!-- Section des contacts -->
+
+  <section>
+    <div class="contact-us" id="contact">
+
+      <div class="contact-info">
+        <h2>Nous contacter</h2>
+        <p>N'hésitez pas à nous contacter pour toute question ou demande d'information :</p>
+        <div class="button-container">
+          <a href="https://dianavi22.itch.io/super-party-game" target="_blank">Notre page itch.io</a>
+          <a href="livret-spg.pdf" download target="_blank">Télécharger le livret du jeu</a>
+        </div>
+      </div>
+      <img src="images/Sneuk.png" alt="Placeholder image">
+
+    </div>
+  </section>
+
+
+  <a class="topPage" href="#top">Retour en haut de la page</a>
+
+  <!-- Pied de page -->
+  <footer>
+    <p> © 2023 Chimera Software. Tous droits réservés.</p>
+  </footer>
+
+</body>
+
+</html>
